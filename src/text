@@ -1,0 +1,15 @@
+<BrowserRouter>
+
+      <Routes>
+
+        <Route  path='/'  element={<Login/>} />
+        
+
+      </Routes>
+      
+     
+      </BrowserRouter>
+     
+      <Home add={add} transactions={transactions}/>
+    </div>
+    

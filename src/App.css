@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #f7f7f7;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+}
+input{
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+select {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  margin-top: 15px;
+}
+
+button {
+width: 300px;
+height: 30px;
+margin-left: 45px;
+margin-top: 4px;
+}
+.list-Item{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 500px;
+  height: 50px;
+  margin-top: 5px;
+}
+.list-Item h6 {
+  padding-top: 25px;
+  padding-left: 12px;
+}
+
+.expenseIndicator {
+  display: block;
+  border-right: 4px solid red;
+  width: 100px;
+  height: 47px;
+}
+.incomeIndicator {
+  display: block;
+  border-right: 4px solid green;
+  width: 100px;
+  height: 47px;
+}
+.showCurrency{
+  width:400px;
+  height:50px;
+  display: block;
+  background-color: white;
+  margin-top: 4px;
+}
+
+.selectCurrency{
+
+width: 250px;
+
+
+}
+#selectedFromCurrrency{
+  margin-left: 30px;
+}
+
+.totalBalance{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+width: 500px;
+height: 90px;
+
+}
+.totalBalanceLine{
+border-left: 1px solid gray;
+height:80px;
+margin-left: 53px;
+
+
+}
